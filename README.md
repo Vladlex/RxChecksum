@@ -1,5 +1,5 @@
 # RxChecksum
-
+[![Build Status](https://app.bitrise.io/app/1953dc60facda3c3/status.svg?token=IG1teqh8CSz-jQKliLVQLA&branch=master)](https://app.bitrise.io/app/1953dc60facda3c3)
 [![Version](https://img.shields.io/cocoapods/v/RxChecksum.svg?style=flat)](https://cocoapods.org/pods/RxChecksum)
 [![License](https://img.shields.io/cocoapods/l/RxChecksum.svg?style=flat)](https://cocoapods.org/pods/RxChecksum)
 [![Platform](https://img.shields.io/cocoapods/p/RxChecksum.svg?style=flat)](https://cocoapods.org/pods/RxChecksum)
