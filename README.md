@@ -4,6 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/RxChecksum.svg?style=flat)](https://cocoapods.org/pods/RxChecksum)
 [![Platform](https://img.shields.io/cocoapods/p/RxChecksum.svg?style=flat)](https://cocoapods.org/pods/RxChecksum)
 
+## Description
+Small reactive memory-efficient checksum calculations. Cancellable, progress measurable.
+
 ## Installation
 
 RxChecksum is available through [CocoaPods](https://cocoapods.org). To install
