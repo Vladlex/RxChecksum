@@ -2,6 +2,9 @@ import Foundation
 import CommonCrypto.CommonDigest
 import RxSwift
 
+/// Progress of hash calculating, measures in range from 0.0 to 1.0
+public typealias ChecksumCalcProgress = Float
+
 public struct Options: Hashable {
     
     public static let `default` = Options()
@@ -12,8 +15,19 @@ public struct Options: Hashable {
 }
 
 public enum ChecksumEvent: Equatable {
-    case progress(Float)
+    
+    case progress(ChecksumCalcProgress)
+    
     case calculated(String)
+    
+    public var progress: ChecksumCalcProgress {
+        switch self {
+        case .progress(let progress):
+            return progress
+        case .calculated:
+            return 1.0
+        }
+    }
 }
 
 public protocol RxChecksumProtocol {
